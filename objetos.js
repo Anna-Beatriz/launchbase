@@ -1,20 +1,27 @@
 // Objetos
+// Arrays
 
-const aluno1 = {
-    nome: "Anna",
-    nota: "9.8"
-}
+const alunos = [
+    {
+        nome: "Anna",
+        nota: 9.8
+    },
+    
+    {
+        nome: "Beatriz",
+        nota: 10
+    },
+    
+    {
+        nome: "Luna",
+        nota: 2
+    }
+]
 
-const aluno2 = {
-    nome: "Beatriz",
-    nota: "10"
-}
+const media = (alunos[0].nota + alunos[1].nota + alunos[2].nota) / 3
+console.log(alunos)
 
-const aluno3 = {
-    nome: "Luna",
-    nota: "2"
-}
+console.log("------------------------------")
 
-const media = (aluno1.nota + aluno2.nota + aluno3.nota) / 3
-
-console.log(aluno2)
+const nomeAlunos = ["Anna", "Beatriz", "Luna"]
+console.log(nomeAlunos)
