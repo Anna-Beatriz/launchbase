@@ -1,4 +1,4 @@
-const empresa ={
+const empresa = {
     Nome: 'Rocketseat',
     Cor: 'Roxo',
     Foco: 'Programação',
