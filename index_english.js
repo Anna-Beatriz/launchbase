@@ -78,7 +78,7 @@ function markAsFlunked(student) {
 
 function sendFlunkedMessage(student){
     if (student.flunked){
-        console.log(`The student ${student.name} está flunked!`)
+        console.log(`The student ${student.name} was flunked!`)
     }
 }
 
